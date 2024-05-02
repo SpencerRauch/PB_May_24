@@ -17,6 +17,9 @@ function feedTheMonster(food){
         caloriesConsumed += food.pop(); //monster eats a food from the top of the bag ( end of array )
         snacksEaten++; //increase amount of snacks eaten
         //TODO: Your code here!
+        if (caloriesConsumed >= 1000 || snacksEaten == 3){
+            break;
+        }
     }
     //create output message
     var msg = `The monster ate ${snacksEaten} snacks 
