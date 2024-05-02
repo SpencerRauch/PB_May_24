@@ -6,12 +6,12 @@
 
 //nested loops
 
-for (var x = 0; x < 5; x++){ //outerloop runs 5 times
+for (var o = 0; o < 5; o++){ //outerloop runs 5 times
 
-    console.log("I'm running the outer, x is",x )
+    console.log("I'm running the outer, o is", o )
 
-    for (var o = 0; o < 5; o++){ //innerloop runs 5 times FOR EVERY OUTER LOOP
-        console.log("I'm running the inner, o is",o )
+    for (var i = 0; i < 5; i++){ //innerloop runs 5 times FOR EVERY OUTER LOOP
+        console.log("I'm running the inner, i is", i )
     }
 
     console.log("\n")
